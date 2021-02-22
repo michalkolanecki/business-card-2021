@@ -86,4 +86,40 @@ body {
     font-size: 24px;
     padding-top: 100px;
     margin: 0 auto;
+    width: 250px;
+}
+
+/* FOOTER CONTENT */
+
+.bottom__content {
+    color: #FFF;
+    height: 450px;
+    margin: 0 auto;
+    background: #171B29;
+}
+.bottom__title {
+    text-align: center;
+    font-size: 24px;
+    margin: 0 auto;
+    padding-bottom: 110px;
+}
+.bottom__list {
+    margin: 0 auto;
+    padding: 110px 0;
+    text-align: center;
+}
+.bottom__item {
+    display: inline;
+    padding: 0 90px;
+}
+.bottom__text {
+    text-align: center;
+    margin: 0 auto;
+}
+.cls-1 {
+    fill: rgba(255,255,255,0.15);
+}
+.cls-2 {
+    fill: none;
+    stroke: #fa1772;
 }

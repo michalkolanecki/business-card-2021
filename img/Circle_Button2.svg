@@ -1,0 +1,16 @@
+<svg id="Email_Icon" data-name="Email Icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,255,255,0.15);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fa1772;
+      }
+    </style>
+  </defs>
+  <rect id="Background_Area" data-name="Background Area" class="cls-1" width="48" height="48" rx="24"/>
+  <path id="Icon_material-email" data-name="Icon material-email" class="cls-2" d="M25.5,6H5.5A2.5,2.5,0,0,0,3.013,8.5L3,23.5A2.507,2.507,0,0,0,5.5,26h20A2.507,2.507,0,0,0,28,23.5V8.5A2.507,2.507,0,0,0,25.5,6Zm0,5-10,6.25L5.5,11V8.5l10,6.25,10-6.25Z" transform="translate(8.5 8)"/>
+</svg>
