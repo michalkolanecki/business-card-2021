@@ -10,6 +10,11 @@ body {
     background: #24262B;
     margin: 0 auto;
 }
+a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px;
+}
 
 /* HEADER AND MY HERO PHOTO */
 
@@ -31,6 +36,7 @@ body {
     padding-top: 25px;
     padding-left: 100px;
     text-transform: uppercase;
+    letter-spacing: 3px;
 }
 .header__list {
     margin: 0;
@@ -42,6 +48,11 @@ body {
     margin: 0;
     display: inline;
     padding-right: 60px;
+}
+.header__item a:hover {
+    color: #171B29;
+    background-color: #FC0441;
+    transition: 0.5s;
 }
 .header__image {
     margin: 0 auto;
@@ -66,10 +77,12 @@ body {
     font-size: 40px;
     margin: 0;
     padding-top: 85px;
+    letter-spacing: 2px;
 }
 .articles-content__position {
     margin: 0;
     padding: 40px 0;
+    letter-spacing: 5px;
 }
 .articles-content__paragraph {
     color: #9DA1B2;
@@ -125,3 +138,5 @@ body {
     fill: none;
     stroke: #fa1772;
 }
+
+/*Media queries*/

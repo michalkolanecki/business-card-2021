@@ -1,5 +1,5 @@
-const age = 35;
-const name = "Michał";
+const age = 20;
+const name = "Jan";
 
 function welcome(age, name) {
     console.log(
