@@ -21,10 +21,9 @@
         </div>
     </header>
 
-    <main class="main-content">
-        <div class="form">
-            <h1 class="form__title">Contact Form</h1>
-            <form method="post" action="#" class="form__content">
+    <main class="form">
+        <h1 class="form__title">Contact Form</h1>
+        <form method="post" action="#" class="form__content">
                 <p>
                     <label for="firstInputForm">Write your name: </label>
                     <input
@@ -32,7 +31,9 @@
                         type="text"
                         placeholder="Add name" 
                         id="firstInputForm" 
-                        name="firstInputForm">
+                        name="firstInputForm"
+                        required
+                    >
                 </p>
                 <p>
                     <label
@@ -42,6 +43,7 @@
                             placeholder="Add last name"
                             id="secondInputForm"
                             name="secondInputForm"
+                            required
                         >
                     </label>    
                 </p>
@@ -54,6 +56,7 @@
                             id="phoneNumber"
                             name="phoneNUmber"
                             type="tel"
+                            required
                         >
                     </label>    
                 </p>
@@ -66,6 +69,7 @@
                             id="email"
                             name="email"
                             type="email"
+                            required
                         >
                     </label>    
                 </p>
@@ -76,9 +80,7 @@
                 <p>
                     <input checked type="submit" value="Send"/>
                 </p>
-            </form>
-        </div>
-       
+        </form>
     </main>
 
     <footer class="bottom__content">

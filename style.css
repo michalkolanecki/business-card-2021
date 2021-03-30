@@ -165,16 +165,26 @@ a {
 }
 
 /*Contact-styles*/
-.form {
 
+.form {
+    display: flex;
+    align-items: center;
+    margin: 70px auto;
+    padding: 0;
+    flex-direction: column;
 }
 .form__title {
-
+    color: #fa1772;
+    text-transform: uppercase;
 }
 .form__content {
-
+    margin: 30px 0;
+    color: #FFF;
 }
 .form__item {
-    
+    display: block;
+    width: 350px;
+    padding: 10px;
+    margin: 20px 0;
 }
 /*Media queries*/
