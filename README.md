@@ -1,6 +1,6 @@
 # Business card
 
-[Link for view: ](https://michalkolanecki.github.io/business-card-2021/)
+[Link for view](https://michalkolanecki.github.io/business-card-2021/)
 
 Layout for this page was created with just pure **HTML** and **CSS**.
 
