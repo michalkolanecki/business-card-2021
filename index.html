@@ -11,17 +11,13 @@
 <body>
     <header class="header">
         <div class="header__tabs">
-            <h2 class="header__title"><a href="index.html">My business web-card</a></h2>
-            <ul class="header__list">
-                <li class="header__item"><a href="aboutme.html">About</a></li>
-                <li class="header__item"><a href="contact.html">Contact</a></li>
-            </ul>
+            <h2 class="header__logo"><a href="index.html">Logo</a></h2>
         </div>
         <img class="header__image" src="img/Background_Image.png" alt="Photography of me"/>
     </header>
     <main class="main-content">
         <section class="articles-content">
-            <h3 class="articles-content__title">Name of web-design author</h3>
+            <h3 class="articles-content__title">Name of author</h3>
             <p class="articles-content__position">Position</p>
             <article class="articles-content__paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
                 invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et 
@@ -49,8 +45,81 @@
             </article>
         </section>
         <section class="comments">
-            <h5 class="comments__quotations">First comment - "no sea takimata sanctus est Lorem ipsum"</h5>
-            <h5 class="comments__quotations">Second comment - "et justo duo dolores et ea rebum justo"</h5>
+            <div class="comments__box">
+                <h5 class="comments__quotations">First comment - "no sea takimata sanctus est Lorem ipsum"</h5>
+                <h5 class="comments__quotations">Second comment - "et justo duo dolores et ea rebum justo"</h5>
+            </div>
+        </section>
+        <section class="about-content">
+            <h1 class="about-content__title">About Me</h1>
+            <article class="about-content__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et 
+                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
+                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing 
+                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+                sed diam voluptua.
+            </article>
+        </section>
+        <section class="form">
+            <h1 class="form__title">Contact Form</h1>
+            <form method="post" action="#" class="form__content">
+                <p>
+                    <label for="firstInputForm">Write your name: </label>
+                    <input
+                        class="form__item" 
+                        type="text"
+                        placeholder="Add name" 
+                        id="firstInputForm" 
+                        name="firstInputForm"
+                        required
+                    >
+                </p>
+                <p>
+                    <label
+                        >Write your last name:
+                        <input
+                            class="form__item"
+                            placeholder="Add last name"
+                            id="secondInputForm"
+                            name="secondInputForm"
+                            required
+                        >
+                    </label>    
+                </p>
+                <p>
+                    <label
+                        >Telephone number:
+                        <input 
+                            class="form__item"
+                            placeholder="Your phone number"
+                            id="phoneNumber"
+                            name="phoneNUmber"
+                            type="tel"
+                            required
+                        >
+                    </label>    
+                </p>
+                <p>
+                    <label
+                        >E-mail:
+                        <input
+                            class="form__item"
+                            placeholder="Your email"
+                            id="email"
+                            name="email"
+                            type="email"
+                            required
+                        >
+                    </label>    
+                </p>
+                <p>
+                    <label for="yourText">Add your text:</label>
+                    <textarea id="yourText" name="yourText">Write your text ...</textarea>
+                </p>
+                <p>
+                    <input checked type="submit" value="Send"/>
+                </p>
+            </form>
         </section>
     </main>
     <footer class="bottom__content">
